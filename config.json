@@ -1,0 +1,4 @@
+{
+    "_nota": "Estos ajustes se aplicaran al reiniciar el bot. En Guild Commands si esta en on solo se registraran en la guild indicada abajo",
+    "guild-commands": false
+}

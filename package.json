@@ -1,0 +1,19 @@
+{
+  "name": "glxity-bot-st",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "register-commands": "node register-commands.js",
+    "info": "echo 'Bot creado por Galaxity Studios'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3"
+  }
+}
