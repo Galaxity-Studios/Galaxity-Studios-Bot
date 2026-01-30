@@ -1,8 +1,8 @@
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
-const { Client, Collection, GatewayIntentBits } = require('discord.js');
-
+const { Client, Collection, GatewayIntentBits, ActivityType } = require('discord.js');
+const config = require('./config.json');
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds]
@@ -21,6 +21,14 @@ for (const file of commandFiles) {
 
 client.once('clientReady', () => {
   console.log(`🤖 Bot conectado como ${client.user.tag}`);
+  client.user.setPresence({
+    activities: [{
+        type: ActivityType.Custom,
+        name: config.status.name,
+        state: config.status.text
+    }],
+    status: config.status['type-online'] // e.g. "online"
+});
 });
 
 client.on('interactionCreate', async interaction => {
@@ -39,5 +47,7 @@ client.on('interactionCreate', async interaction => {
     });
   }
 });
+
+
 
 client.login(process.env.DISCORD_TOKEN);

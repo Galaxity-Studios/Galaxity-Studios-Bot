@@ -45,7 +45,11 @@ Despues de rellenar el **.env**, hay que configurar el **config.json**
 
 ```json
 {
-    "guild-commands": false
+    "guild-commands": false,
+    "status": {
+        "type-online": "online",
+        "text": "Example Bot | /help"
+    }
 }
 ```
 
