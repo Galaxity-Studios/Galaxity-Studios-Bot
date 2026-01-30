@@ -1,5 +1,6 @@
 # Galaxity Bot Studios
 ¿No sabes como hacer un bot o necesitas ayuda? Pues, **Galaxity Bot Studios** es tu salvacion. 
+
 [**LINK COMPLETO DEL TUTORIAL EN DISCORD**](https://discord.com/channels/1407567117620088943/1465112441561022548)
 
 > [!IMPORTANT]
