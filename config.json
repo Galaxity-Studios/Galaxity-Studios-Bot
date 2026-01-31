@@ -1,12 +1,13 @@
 {
     "_nota": "Estos ajustes se aplicaran al reiniciar el bot. En Guild Commands si esta en on solo se registraran en la guild indicada abajo",
     "guild-commands": false,
+    "_nota2": "Lo de color es para que todos los embeds de comandos usen el mismo color. No pongas el #",
+    "color": "2b51fb",
     "status": {
         "_nota": "En Type-Online, tienes que poner online, idle, dnd o offline. En Text, tienes que poner el texto que salga.",
         "_nota 2": "En name, tienes que poner el otro ",
         "type-online": "online",
         "name": "Example Bot The Best",
         "text": "Example Bot | /help"
-    },
-    "server-ip": "hypixel.net"
+    }
 }
